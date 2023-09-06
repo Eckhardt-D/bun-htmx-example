@@ -1,0 +1,21 @@
+{
+  "name": "bun-example-project",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "start": "bun run index.tsx"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.21",
+    "@types/react-dom": "^18.2.7",
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "lit-html": "^2.8.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
